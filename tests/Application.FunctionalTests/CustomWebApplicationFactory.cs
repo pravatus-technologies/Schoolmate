@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Diagnostics;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.DependencyInjection.Extensions;
-using Schoolmate.Web;
+using Schoolmate.Admissions;
 
 namespace Schoolmate.Application.FunctionalTests;
 

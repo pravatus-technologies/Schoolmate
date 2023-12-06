@@ -34,7 +34,7 @@
     </ItemGroup>
     
     <ItemGroup>
-        <ProjectReference Include="..\..\src\Web\Web.csproj" />
+        <ProjectReference Include="..\..\src\Admissions\Admissions.csproj" />
     </ItemGroup>
 
 </Project>
