@@ -7,166 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79eaefb9-58db-4d7d-8298-805500686746" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Schoolmate/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Schoolmate/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Schoolmate.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Schoolmate.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/Areas/Identity/Pages/Account/AccessDenied.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/Areas/Identity/Pages/Account/AccessDenied.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/Areas/Identity/Pages/Account/AccessDenied.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/Areas/Identity/Pages/Account/AccessDenied.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/Areas/Identity/Pages/Account/ConfirmEmail.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/Areas/Identity/Pages/Account/ConfirmEmail.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/Areas/Identity/Pages/Account/ConfirmEmail.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/Areas/Identity/Pages/Account/ConfirmEmail.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/Areas/Identity/Pages/Account/ConfirmEmailChange.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/Areas/Identity/Pages/Account/ConfirmEmailChange.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/Areas/Identity/Pages/Account/ConfirmEmailChange.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/Areas/Identity/Pages/Account/ConfirmEmailChange.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/Areas/Identity/Pages/Account/ExternalLogin.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/Areas/Identity/Pages/Account/ExternalLogin.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/Areas/Identity/Pages/Account/ExternalLogin.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/Areas/Identity/Pages/Account/ExternalLogin.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/Areas/Identity/Pages/Account/ForgotPassword.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/Areas/Identity/Pages/Account/ForgotPassword.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/Areas/Identity/Pages/Account/ForgotPassword.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/Areas/Identity/Pages/Account/ForgotPassword.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/Areas/Identity/Pages/Account/ForgotPasswordConfirmation.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/Areas/Identity/Pages/Account/ForgotPasswordConfirmation.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/Areas/Identity/Pages/Account/ForgotPasswordConfirmation.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/Areas/Identity/Pages/Account/ForgotPasswordConfirmation.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/Areas/Identity/Pages/Account/Lockout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/Areas/Identity/Pages/Account/Lockout.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/Areas/Identity/Pages/Account/Lockout.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/Areas/Identity/Pages/Account/Lockout.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/Areas/Identity/Pages/Account/Login.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/Areas/Identity/Pages/Account/Login.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/Areas/Identity/Pages/Account/Login.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/Areas/Identity/Pages/Account/Login.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/Areas/Identity/Pages/Account/LoginWith2fa.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/Areas/Identity/Pages/Account/LoginWith2fa.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/Areas/Identity/Pages/Account/LoginWith2fa.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/Areas/Identity/Pages/Account/LoginWith2fa.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/Areas/Identity/Pages/Account/LoginWithRecoveryCode.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/Areas/Identity/Pages/Account/LoginWithRecoveryCode.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/Areas/Identity/Pages/Account/LoginWithRecoveryCode.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/Areas/Identity/Pages/Account/LoginWithRecoveryCode.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/Areas/Identity/Pages/Account/Logout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/Areas/Identity/Pages/Account/Logout.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/Areas/Identity/Pages/Account/Logout.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/Areas/Identity/Pages/Account/Logout.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/Areas/Identity/Pages/Account/Manage/ChangePassword.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/Areas/Identity/Pages/Account/Manage/ChangePassword.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/Areas/Identity/Pages/Account/Manage/ChangePassword.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/Areas/Identity/Pages/Account/Manage/ChangePassword.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/Areas/Identity/Pages/Account/Manage/DeletePersonalData.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/Areas/Identity/Pages/Account/Manage/DeletePersonalData.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/Areas/Identity/Pages/Account/Manage/DeletePersonalData.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/Areas/Identity/Pages/Account/Manage/DeletePersonalData.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/Areas/Identity/Pages/Account/Manage/Disable2fa.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/Areas/Identity/Pages/Account/Manage/Disable2fa.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/Areas/Identity/Pages/Account/Manage/Disable2fa.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/Areas/Identity/Pages/Account/Manage/Disable2fa.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/Areas/Identity/Pages/Account/Manage/DownloadPersonalData.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/Areas/Identity/Pages/Account/Manage/DownloadPersonalData.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/Areas/Identity/Pages/Account/Manage/DownloadPersonalData.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/Areas/Identity/Pages/Account/Manage/DownloadPersonalData.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/Areas/Identity/Pages/Account/Manage/Email.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/Areas/Identity/Pages/Account/Manage/Email.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/Areas/Identity/Pages/Account/Manage/Email.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/Areas/Identity/Pages/Account/Manage/Email.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/Areas/Identity/Pages/Account/Manage/EnableAuthenticator.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/Areas/Identity/Pages/Account/Manage/EnableAuthenticator.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/Areas/Identity/Pages/Account/Manage/EnableAuthenticator.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/Areas/Identity/Pages/Account/Manage/EnableAuthenticator.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/Areas/Identity/Pages/Account/Manage/ExternalLogins.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/Areas/Identity/Pages/Account/Manage/ExternalLogins.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/Areas/Identity/Pages/Account/Manage/ExternalLogins.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/Areas/Identity/Pages/Account/Manage/ExternalLogins.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/Areas/Identity/Pages/Account/Manage/GenerateRecoveryCodes.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/Areas/Identity/Pages/Account/Manage/GenerateRecoveryCodes.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/Areas/Identity/Pages/Account/Manage/GenerateRecoveryCodes.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/Areas/Identity/Pages/Account/Manage/GenerateRecoveryCodes.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/Areas/Identity/Pages/Account/Manage/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/Areas/Identity/Pages/Account/Manage/Index.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/Areas/Identity/Pages/Account/Manage/Index.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/Areas/Identity/Pages/Account/Manage/Index.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/Areas/Identity/Pages/Account/Manage/ManageNavPages.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/Areas/Identity/Pages/Account/Manage/ManageNavPages.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/Areas/Identity/Pages/Account/Manage/PersonalData.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/Areas/Identity/Pages/Account/Manage/PersonalData.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/Areas/Identity/Pages/Account/Manage/PersonalData.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/Areas/Identity/Pages/Account/Manage/PersonalData.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/Areas/Identity/Pages/Account/Manage/ResetAuthenticator.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/Areas/Identity/Pages/Account/Manage/ResetAuthenticator.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/Areas/Identity/Pages/Account/Manage/ResetAuthenticator.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/Areas/Identity/Pages/Account/Manage/ResetAuthenticator.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/Areas/Identity/Pages/Account/Manage/SetPassword.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/Areas/Identity/Pages/Account/Manage/SetPassword.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/Areas/Identity/Pages/Account/Manage/SetPassword.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/Areas/Identity/Pages/Account/Manage/SetPassword.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/Areas/Identity/Pages/Account/Manage/ShowRecoveryCodes.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/Areas/Identity/Pages/Account/Manage/ShowRecoveryCodes.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/Areas/Identity/Pages/Account/Manage/ShowRecoveryCodes.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/Areas/Identity/Pages/Account/Manage/ShowRecoveryCodes.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/Areas/Identity/Pages/Account/Manage/TwoFactorAuthentication.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/Areas/Identity/Pages/Account/Manage/TwoFactorAuthentication.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/Areas/Identity/Pages/Account/Manage/TwoFactorAuthentication.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/Areas/Identity/Pages/Account/Manage/TwoFactorAuthentication.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/Areas/Identity/Pages/Account/Manage/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/Areas/Identity/Pages/Account/Manage/_Layout.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/Areas/Identity/Pages/Account/Manage/_StatusMessage.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/Areas/Identity/Pages/Account/Manage/_StatusMessage.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/Areas/Identity/Pages/Account/Register.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/Areas/Identity/Pages/Account/Register.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/Areas/Identity/Pages/Account/Register.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/Areas/Identity/Pages/Account/Register.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/Areas/Identity/Pages/Account/RegisterConfirmation.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/Areas/Identity/Pages/Account/RegisterConfirmation.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/Areas/Identity/Pages/Account/RegisterConfirmation.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/Areas/Identity/Pages/Account/RegisterConfirmation.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/Areas/Identity/Pages/Account/ResendEmailConfirmation.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/Areas/Identity/Pages/Account/ResendEmailConfirmation.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/Areas/Identity/Pages/Account/ResendEmailConfirmation.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/Areas/Identity/Pages/Account/ResendEmailConfirmation.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/Areas/Identity/Pages/Account/ResetPassword.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/Areas/Identity/Pages/Account/ResetPassword.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/Areas/Identity/Pages/Account/ResetPassword.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/Areas/Identity/Pages/Account/ResetPassword.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/Areas/Identity/Pages/Account/ResetPasswordConfirmation.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/Areas/Identity/Pages/Account/ResetPasswordConfirmation.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/Areas/Identity/Pages/Account/ResetPasswordConfirmation.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/Areas/Identity/Pages/Account/ResetPasswordConfirmation.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/Areas/Identity/Pages/Account/_StatusMessage.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/Areas/Identity/Pages/Account/_StatusMessage.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/Areas/Identity/Pages/Account/_ViewImports.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/Areas/Identity/Pages/Account/_ViewImports.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/Areas/Identity/Pages/_ViewImports.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/Areas/Identity/Pages/_ViewImports.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/Areas/Identity/Pages/_ViewStart.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/Areas/Identity/Pages/_ViewStart.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/ClientApp/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/ClientApp/.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/ClientApp/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/ClientApp/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/ClientApp/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/ClientApp/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/ClientApp/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/ClientApp/angular.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/ClientApp/aspnetcore-https.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/ClientApp/aspnetcore-https.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/ClientApp/karma.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/ClientApp/karma.conf.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/ClientApp/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/ClientApp/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/ClientApp/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/ClientApp/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/ClientApp/proxy.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/ClientApp/proxy.conf.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/ClientApp/src/api-authorization/authorize.interceptor.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/ClientApp/src/api-authorization/authorize.interceptor.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/ClientApp/src/api-authorization/authorize.interceptor.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/ClientApp/src/api-authorization/authorize.interceptor.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/ClientApp/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/ClientApp/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/ClientApp/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/ClientApp/src/app/app.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/ClientApp/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/ClientApp/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/ClientApp/src/app/app.server.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/ClientApp/src/app/app.server.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/ClientApp/src/app/counter/counter.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/ClientApp/src/app/counter/counter.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/ClientApp/src/app/counter/counter.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/ClientApp/src/app/counter/counter.component.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/ClientApp/src/app/counter/counter.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/ClientApp/src/app/counter/counter.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/ClientApp/src/app/fetch-data/fetch-data.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/ClientApp/src/app/fetch-data/fetch-data.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/ClientApp/src/app/fetch-data/fetch-data.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/ClientApp/src/app/fetch-data/fetch-data.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/ClientApp/src/app/home/home.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/ClientApp/src/app/home/home.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/ClientApp/src/app/home/home.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/ClientApp/src/app/home/home.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/ClientApp/src/app/nav-menu/nav-menu.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/ClientApp/src/app/nav-menu/nav-menu.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/ClientApp/src/app/nav-menu/nav-menu.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/ClientApp/src/app/nav-menu/nav-menu.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/ClientApp/src/app/nav-menu/nav-menu.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/ClientApp/src/app/nav-menu/nav-menu.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/ClientApp/src/app/todo/todo.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/ClientApp/src/app/todo/todo.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/ClientApp/src/app/todo/todo.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/ClientApp/src/app/todo/todo.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/ClientApp/src/app/todo/todo.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/ClientApp/src/app/todo/todo.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/ClientApp/src/app/web-api-client.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/ClientApp/src/app/web-api-client.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/ClientApp/src/assets/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/ClientApp/src/assets/.gitkeep" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/ClientApp/src/environments/environment.prod.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/ClientApp/src/environments/environment.prod.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/ClientApp/src/environments/environment.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/ClientApp/src/environments/environment.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/ClientApp/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/ClientApp/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/ClientApp/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/ClientApp/src/main.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/ClientApp/src/polyfills.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/ClientApp/src/polyfills.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/ClientApp/src/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/ClientApp/src/styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/ClientApp/src/test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/ClientApp/src/test.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/ClientApp/tsconfig.app.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/ClientApp/tsconfig.app.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/ClientApp/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/ClientApp/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/ClientApp/tsconfig.spec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/ClientApp/tsconfig.spec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/DependencyInjection.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/DependencyInjection.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/Endpoints/TodoItems.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/Endpoints/TodoItems.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/Endpoints/TodoLists.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/Endpoints/TodoLists.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/Endpoints/WeatherForecasts.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/Endpoints/WeatherForecasts.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/GlobalUsings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/GlobalUsings.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/Infrastructure/CustomExceptionHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/Infrastructure/CustomExceptionHandler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/Infrastructure/EndpointGroupBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/Infrastructure/EndpointGroupBase.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/Infrastructure/IEndpointRouteBuilderExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/Infrastructure/IEndpointRouteBuilderExtensions.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/Infrastructure/MethodInfoExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/Infrastructure/MethodInfoExtensions.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/Infrastructure/WebApplicationExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/Infrastructure/WebApplicationExtensions.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/Pages/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/Pages/Shared/_Layout.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/Pages/Shared/_LoginPartial.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/Pages/Shared/_LoginPartial.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/Pages/Shared/_ValidationScriptsPartial.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/Pages/Shared/_ValidationScriptsPartial.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/Pages/_ViewImports.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/Pages/_ViewImports.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/Pages/_ViewStart.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/Pages/_ViewStart.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/Properties/launchSettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/Services/CurrentUser.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/Services/CurrentUser.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/Web.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/Admissions.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/Web.http" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/Web.http" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/appsettings.Development.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/config.nswag" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/config.nswag" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/wwwroot/api/specification.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/wwwroot/api/specification.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/wwwroot/css/site.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/wwwroot/css/site.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/wwwroot/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/wwwroot/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/wwwroot/js/site.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/wwwroot/js/site.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/wwwroot/lib/bootstrap/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/wwwroot/lib/bootstrap/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/wwwroot/lib/bootstrap/dist/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/wwwroot/lib/bootstrap/dist/css/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/wwwroot/lib/bootstrap/dist/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/wwwroot/lib/bootstrap/dist/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/wwwroot/lib/jquery-validation/LICENSE.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/wwwroot/lib/jquery-validation/LICENSE.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/wwwroot/lib/jquery-validation/dist/additional-methods.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/wwwroot/lib/jquery-validation/dist/additional-methods.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/wwwroot/lib/jquery-validation/dist/additional-methods.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/wwwroot/lib/jquery-validation/dist/additional-methods.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/wwwroot/lib/jquery-validation/dist/jquery.validate.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/wwwroot/lib/jquery-validation/dist/jquery.validate.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/wwwroot/lib/jquery/LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/wwwroot/lib/jquery/LICENSE.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/wwwroot/lib/jquery/dist/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/wwwroot/lib/jquery/dist/jquery.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/wwwroot/lib/jquery/dist/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/wwwroot/lib/jquery/dist/jquery.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Web/wwwroot/lib/jquery/dist/jquery.min.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/wwwroot/lib/jquery/dist/jquery.min.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Application.FunctionalTests/Application.FunctionalTests.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Application.FunctionalTests/Application.FunctionalTests.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Application.FunctionalTests/CustomWebApplicationFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Application.FunctionalTests/CustomWebApplicationFactory.cs" afterDir="false" />
-    </list>
+    <list default="true" id="79eaefb9-58db-4d7d-8298-805500686746" name="Changes" comment="Created Solution Folders separating apps and libs. Rename Web project to Admissions." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -245,8 +86,17 @@
       <workItem from="1700888080723" duration="47000" />
       <workItem from="1701758817853" duration="65000" />
       <workItem from="1701789714074" duration="2413000" />
-      <workItem from="1701829913708" duration="5300000" />
+      <workItem from="1701829913708" duration="5805000" />
     </task>
+    <task id="LOCAL-00001" summary="Created Solution Folders separating apps and libs. Rename Web project to Admissions.">
+      <option name="closed" value="true" />
+      <created>1701835987626</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1701835987626</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -266,5 +116,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Created Solution Folders separating apps and libs. Rename Web project to Admissions." />
+    <option name="LAST_COMMIT_MESSAGE" value="Created Solution Folders separating apps and libs. Rename Web project to Admissions." />
   </component>
 </project>
