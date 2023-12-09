@@ -132,6 +132,13 @@ namespace Schoolmate.Admissions.Areas.Identity.Pages.Account
 
                 await _userStore.SetUserNameAsync(user, Input.Email, CancellationToken.None);
                 await _emailStore.SetEmailAsync(user, Input.Email, CancellationToken.None);
+
+                user.GivenNames = Input.GivenNames;
+                user.MiddleName = Input.MiddleName;
+                user.FamilyName = Input.FamilyName;
+                user.Birthday = Input.Birthday;
+                user.Gender = Input.Gender.ToCharArray()[0];
+                
                 var result = await _userManager.CreateAsync(user, Input.Password);
 
                 if (result.Succeeded)
