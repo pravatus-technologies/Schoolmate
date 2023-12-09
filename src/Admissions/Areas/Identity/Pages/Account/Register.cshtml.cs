@@ -105,6 +105,10 @@ namespace Schoolmate.Admissions.Areas.Identity.Pages.Account
             [Display(Name = "Family Name")]
             public string FamilyName { get; set; }
             
+            [DataType(DataType.PhoneNumber)]
+            [Display(Name = "Phone Number")]
+            public string PhoneNumber { get; set; }
+            
             [Required]
             [DataType(DataType.Date)]
             [Display(Name = "Birthday")]
@@ -136,6 +140,7 @@ namespace Schoolmate.Admissions.Areas.Identity.Pages.Account
                 user.GivenNames = Input.GivenNames;
                 user.MiddleName = Input.MiddleName;
                 user.FamilyName = Input.FamilyName;
+                user.PhoneNumber = Input.PhoneNumber;
                 user.Birthday = Input.Birthday;
                 user.Gender = Input.Gender.ToCharArray()[0];
                 

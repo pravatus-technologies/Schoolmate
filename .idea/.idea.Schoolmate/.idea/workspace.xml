@@ -7,8 +7,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79eaefb9-58db-4d7d-8298-805500686746" name="Changes" comment="modified applicationuser model to include basic personal information">
+    <list default="true" id="79eaefb9-58db-4d7d-8298-805500686746" name="Changes" comment="fixed code where new registration does not persist fields in the db">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Schoolmate/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Schoolmate/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Admissions/Areas/Identity/Pages/Account/Register.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/Areas/Identity/Pages/Account/Register.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Admissions/Areas/Identity/Pages/Account/Register.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/Areas/Identity/Pages/Account/Register.cshtml.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,9 +26,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///Users/ephraim/repos/SMCSD/Schoolmate/src/Infrastructure/Data/ApplicationDbContext.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/ephraim/repos/SMCSD/Schoolmate/src/Infrastructure/Data/ApplicationDbContextInitialiser.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/ephraim/repos/SMCSD/Schoolmate/src/Infrastructure/DependencyInjection.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/ephraim/repos/SMCSD/Schoolmate/src/Admissions/Areas/Identity/Pages/Account/Register.cshtml.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -95,7 +94,7 @@
       <workItem from="1701758817853" duration="65000" />
       <workItem from="1701789714074" duration="2413000" />
       <workItem from="1701829913708" duration="5805000" />
-      <workItem from="1702111416653" duration="2570000" />
+      <workItem from="1702111416653" duration="3785000" />
     </task>
     <task id="LOCAL-00001" summary="Created Solution Folders separating apps and libs. Rename Web project to Admissions.">
       <option name="closed" value="true" />
@@ -113,7 +112,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702112604897</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="fixed code where new registration does not persist fields in the db">
+      <option name="closed" value="true" />
+      <created>1702116034831</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1702116034831</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,6 +142,7 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Created Solution Folders separating apps and libs. Rename Web project to Admissions." />
     <MESSAGE value="modified applicationuser model to include basic personal information" />
-    <option name="LAST_COMMIT_MESSAGE" value="modified applicationuser model to include basic personal information" />
+    <MESSAGE value="fixed code where new registration does not persist fields in the db" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed code where new registration does not persist fields in the db" />
   </component>
 </project>
