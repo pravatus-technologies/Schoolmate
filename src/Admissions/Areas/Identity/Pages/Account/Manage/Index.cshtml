@@ -17,9 +17,27 @@
                 <label asp-for="Username" class="form-label"></label>
             </div>
             <div class="form-floating mb-3">
-                <input asp-for="Input.PhoneNumber" class="form-control" placeholder="Please enter your phone number."/>
-                <label asp-for="Input.PhoneNumber" class="form-label"></label>
-                <span asp-validation-for="Input.PhoneNumber" class="text-danger"></span>
+                <input asp-for="Input.GivenNames" class="form-control" placeholder="Given Names."/>
+                <label asp-for="Input.GivenNames" class="form-label"></label>
+            </div>
+            <div class="form-floating mb-3">
+                <input asp-for="Input.MiddleName" class="form-control" placeholder="Middle Name."/>
+                <label asp-for="Input.MiddleName" class="form-label"></label>
+            </div>
+            <div class="form-floating mb-3">
+                <input asp-for="Input.FamilyName" class="form-control" placeholder="Family Name."/>
+                <label asp-for="Input.FamilyName" class="form-label"></label>
+            </div>
+            <div class="form-floating mb-3">
+                <input asp-for="Input.Birthday" class="form-control"/>
+                <label asp-for="Input.Birthday" class="form-label"></label>
+                <span asp-validation-for="Input.Birthday" class="text-danger"></span>
+            </div>
+            <div class="form-floating mb-3">
+               @foreach (var gender in Model.Genders)
+               {
+                   <input class="form-check-input" type="radio" asp-for="Input.Gender" value="@gender" />@gender<br />
+               } 
             </div>
             <button id="update-profile-button" type="submit" class="w-100 btn btn-lg btn-primary">Save</button>
         </form>

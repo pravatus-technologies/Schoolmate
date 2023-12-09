@@ -28,6 +28,8 @@ namespace Schoolmate.Admissions.Areas.Identity.Pages.Account.Manage
         ///     directly from your code. This API may change or be removed in future releases.
         /// </summary>
         public string Username { get; set; }
+        
+        public string[] Genders = { "Male", "Female" };
 
         /// <summary>
         ///     This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
@@ -56,6 +58,23 @@ namespace Schoolmate.Admissions.Areas.Identity.Pages.Account.Manage
             [Phone]
             [Display(Name = "Phone number")]
             public string PhoneNumber { get; set; }
+            
+            [Display(Name = "Given Names")]
+            public string GivenNames { get; set; }
+            
+            [Display(Name = "Middle Name")]
+            public string MiddleName { get; set; }
+            
+            [Display(Name = "Family Name")]
+            public string FamilyName { get; set; }
+            
+            [DataType(DataType.Date)]
+            [Display(Name = "Birthday")]
+            public DateOnly Birthday { get; set; }
+            
+            [Required]
+            [Display(Name = "Gender")]
+            public string Gender { get; set; }
         }
 
         private async Task LoadAsync(ApplicationUser user)
@@ -63,11 +82,18 @@ namespace Schoolmate.Admissions.Areas.Identity.Pages.Account.Manage
             var userName = await _userManager.GetUserNameAsync(user);
             var phoneNumber = await _userManager.GetPhoneNumberAsync(user);
 
-            Username = userName;
+            var userAccount = await _userManager.FindByIdAsync(user.Id); 
 
+            Username = userName;
+            
             Input = new InputModel
             {
-                PhoneNumber = phoneNumber
+                PhoneNumber = phoneNumber,
+                GivenNames = userAccount!.GivenNames,
+                MiddleName = userAccount!.MiddleName,
+                FamilyName = userAccount!.FamilyName,
+                Birthday = userAccount!.Birthday,
+                Gender = userAccount!.Gender.Equals('M') ? "Male" : "Female"
             };
         }
 
@@ -106,6 +132,19 @@ namespace Schoolmate.Admissions.Areas.Identity.Pages.Account.Manage
                     StatusMessage = "Unexpected error when trying to set phone number.";
                     return RedirectToPage();
                 }
+            }
+
+            user.GivenNames = Input.GivenNames;
+            user.MiddleName = Input.MiddleName;
+            user.FamilyName = Input.FamilyName;
+            user.Birthday = Input.Birthday;
+            user.Gender = Input.Gender.ToCharArray()[0];
+            
+            var updateResult = await _userManager.UpdateAsync(user);
+            if (!updateResult.Succeeded)
+            {
+                StatusMessage = "Error encountered when trying to update the user record.";
+                return RedirectToPage();
             }
 
             await _signInManager.RefreshSignInAsync(user);
