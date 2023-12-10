@@ -10,9 +10,9 @@ public record CreateTodoListCommand : IRequest<int>
 
 public class CreateTodoListCommandHandler : IRequestHandler<CreateTodoListCommand, int>
 {
-    private readonly IAdmissionDbContext _context;
+    private readonly IAuthDbContext _context;
 
-    public CreateTodoListCommandHandler(IAdmissionDbContext context)
+    public CreateTodoListCommandHandler(IAuthDbContext context)
     {
         _context = context;
     }

@@ -7,9 +7,9 @@ using Schoolmate.Infrastructure.Identity;
 
 namespace Schoolmate.Infrastructure.Data.Contexts;
 
-public class AdmissionDbContext : IdentityDbContext<ApplicationUser>, IAdmissionDbContext
+public class AuthDbContext : IdentityDbContext<ApplicationUser>, IAuthDbContext
 {
-    public AdmissionDbContext(DbContextOptions<AdmissionDbContext> options) : base(options) { }
+    public AuthDbContext(DbContextOptions<AuthDbContext> options) : base(options) { }
 
     public DbSet<TodoList> TodoLists => Set<TodoList>();
 

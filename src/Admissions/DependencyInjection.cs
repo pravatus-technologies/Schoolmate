@@ -20,7 +20,7 @@ public static class DependencyInjection
         services.AddHttpContextAccessor();
 
         services.AddHealthChecks()
-            .AddDbContextCheck<AdmissionDbContext>();
+            .AddDbContextCheck<AuthDbContext>();
 
         services.AddExceptionHandler<CustomExceptionHandler>();
 

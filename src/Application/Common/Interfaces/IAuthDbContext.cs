@@ -2,7 +2,7 @@
 
 namespace Schoolmate.Application.Common.Interfaces;
 
-public interface IAdmissionDbContext
+public interface IAuthDbContext
 {
     DbSet<TodoList> TodoLists { get; }
 

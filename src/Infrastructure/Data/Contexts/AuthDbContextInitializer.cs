@@ -15,7 +15,7 @@ public static class InitialiserExtensions
     {
         using var scope = app.Services.CreateScope();
 
-        var initialiser = scope.ServiceProvider.GetRequiredService<AdmissionDbContextInitialiser>();
+        var initialiser = scope.ServiceProvider.GetRequiredService<AuthDbContextInitializer>();
 
         await initialiser.InitialiseAsync();
 
@@ -23,14 +23,14 @@ public static class InitialiserExtensions
     }
 }
 
-public class AdmissionDbContextInitialiser
+public class AuthDbContextInitializer
 {
-    private readonly ILogger<AdmissionDbContextInitialiser> _logger;
-    private readonly AdmissionDbContext _context;
+    private readonly ILogger<AuthDbContextInitializer> _logger;
+    private readonly AuthDbContext _context;
     private readonly UserManager<ApplicationUser> _userManager;
     private readonly RoleManager<IdentityRole> _roleManager;
 
-    public AdmissionDbContextInitialiser(ILogger<AdmissionDbContextInitialiser> logger, AdmissionDbContext context, UserManager<ApplicationUser> userManager, RoleManager<IdentityRole> roleManager)
+    public AuthDbContextInitializer(ILogger<AuthDbContextInitializer> logger, AuthDbContext context, UserManager<ApplicationUser> userManager, RoleManager<IdentityRole> roleManager)
     {
         _logger = logger;
         _context = context;

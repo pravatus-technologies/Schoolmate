@@ -7,9 +7,9 @@ public record DeleteTodoItemCommand(int Id) : IRequest;
 
 public class DeleteTodoItemCommandHandler : IRequestHandler<DeleteTodoItemCommand>
 {
-    private readonly IAdmissionDbContext _context;
+    private readonly IAuthDbContext _context;
 
-    public DeleteTodoItemCommandHandler(IAdmissionDbContext context)
+    public DeleteTodoItemCommandHandler(IAuthDbContext context)
     {
         _context = context;
     }

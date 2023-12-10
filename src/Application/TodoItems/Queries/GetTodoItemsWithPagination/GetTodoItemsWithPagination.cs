@@ -13,10 +13,10 @@ public record GetTodoItemsWithPaginationQuery : IRequest<PaginatedList<TodoItemB
 
 public class GetTodoItemsWithPaginationQueryHandler : IRequestHandler<GetTodoItemsWithPaginationQuery, PaginatedList<TodoItemBriefDto>>
 {
-    private readonly IAdmissionDbContext _context;
+    private readonly IAuthDbContext _context;
     private readonly IMapper _mapper;
 
-    public GetTodoItemsWithPaginationQueryHandler(IAdmissionDbContext context, IMapper mapper)
+    public GetTodoItemsWithPaginationQueryHandler(IAuthDbContext context, IMapper mapper)
     {
         _context = context;
         _mapper = mapper;

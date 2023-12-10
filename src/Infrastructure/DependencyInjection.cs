@@ -13,26 +13,22 @@ namespace Schoolmate.Infrastructure;
 
 public static class DependencyInjection
 {
-    public static IServiceCollection AddAdmissionInfrastructureServices(this IServiceCollection services, IConfiguration configuration)
+    public static IServiceCollection AddAuthenticationServices(this IServiceCollection services,
+        IConfiguration configuration)
     {
-        var connectionString = Environment.GetEnvironmentVariable("SM_ADMIS") ?? string.Empty;
+        var connectionString = Environment.GetEnvironmentVariable("SM_AUTH") ?? string.Empty;
 
-        Guard.Against.NullOrEmpty(connectionString, message: "Connection string 'DefaultConnection' not found.");
-
-        services.AddScoped<ISaveChangesInterceptor, AuditableEntityInterceptor>();
-        services.AddScoped<ISaveChangesInterceptor, DispatchDomainEventsInterceptor>();
-
-        services.AddDbContext<AdmissionDbContext>((sp, options) =>
+        Guard.Against.NullOrEmpty(connectionString, message: "Unable to establish a connection to the Auth Database.");
+       
+        services.AddDbContext<AuthDbContext>((sp, options) =>
         {
             options.AddInterceptors(sp.GetServices<ISaveChangesInterceptor>());
 
             options.UseSqlServer(connectionString);
         });
-
-        services.AddScoped<IAdmissionDbContext>(provider => provider.GetRequiredService<AdmissionDbContext>());
-
-        services.AddScoped<AdmissionDbContextInitialiser>();
-
+        
+        services.AddScoped<IAuthDbContext>(provider => provider.GetRequiredService<AuthDbContext>());
+       
         services
             .AddDefaultIdentity<ApplicationUser>(options =>
             {
@@ -52,11 +48,25 @@ public static class DependencyInjection
 #endif
             })
             .AddRoles<IdentityRole>()
-            .AddEntityFrameworkStores<AdmissionDbContext>();
-
-        services.AddSingleton(TimeProvider.System);
+            .AddEntityFrameworkStores<AuthDbContext>();
+        
         services.AddTransient<IIdentityService, IdentityService>();
+        
+        return services;
+    }
+    
+    public static IServiceCollection AddInfrastructureServices(this IServiceCollection services, IConfiguration configuration)
+    {
+        var connectionString = Environment.GetEnvironmentVariable("SM_ADMIS") ?? string.Empty;
 
+        Guard.Against.NullOrEmpty(connectionString, message: "Connection string 'DefaultConnection' not found.");
+
+        services.AddScoped<ISaveChangesInterceptor, AuditableEntityInterceptor>();
+        services.AddScoped<ISaveChangesInterceptor, DispatchDomainEventsInterceptor>();
+        
+        services.AddScoped<AuthDbContextInitializer>();
+        
+        services.AddSingleton(TimeProvider.System);
         services.AddAuthorization(options =>
             options.AddPolicy(Policies.CanPurge, policy => policy.RequireRole(Roles.Administrator)));
 

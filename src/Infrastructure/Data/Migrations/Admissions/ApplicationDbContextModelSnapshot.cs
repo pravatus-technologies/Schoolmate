@@ -11,7 +11,7 @@ using Schoolmate.Infrastructure.Data.Contexts;
 
 namespace Schoolmate.Infrastructure.Data.Migrations
 {
-    [DbContext(typeof(AdmissionDbContext))]
+    [DbContext(typeof(AuthDbContext))]
     partial class ApplicationDbContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)

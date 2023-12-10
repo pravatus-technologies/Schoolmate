@@ -112,7 +112,7 @@ public partial class Testing
     {
         using var scope = _scopeFactory.CreateScope();
 
-        var context = scope.ServiceProvider.GetRequiredService<AdmissionDbContext>();
+        var context = scope.ServiceProvider.GetRequiredService<AuthDbContext>();
 
         return await context.FindAsync<TEntity>(keyValues);
     }
@@ -122,7 +122,7 @@ public partial class Testing
     {
         using var scope = _scopeFactory.CreateScope();
 
-        var context = scope.ServiceProvider.GetRequiredService<AdmissionDbContext>();
+        var context = scope.ServiceProvider.GetRequiredService<AuthDbContext>();
 
         context.Add(entity);
 
@@ -133,7 +133,7 @@ public partial class Testing
     {
         using var scope = _scopeFactory.CreateScope();
 
-        var context = scope.ServiceProvider.GetRequiredService<AdmissionDbContext>();
+        var context = scope.ServiceProvider.GetRequiredService<AuthDbContext>();
 
         return await context.Set<TEntity>().CountAsync();
     }

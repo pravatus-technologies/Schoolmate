@@ -10,9 +10,9 @@ public record PurgeTodoListsCommand : IRequest;
 
 public class PurgeTodoListsCommandHandler : IRequestHandler<PurgeTodoListsCommand>
 {
-    private readonly IAdmissionDbContext _context;
+    private readonly IAuthDbContext _context;
 
-    public PurgeTodoListsCommandHandler(IAdmissionDbContext context)
+    public PurgeTodoListsCommandHandler(IAuthDbContext context)
     {
         _context = context;
     }

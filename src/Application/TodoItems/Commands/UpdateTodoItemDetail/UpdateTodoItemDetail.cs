@@ -16,9 +16,9 @@ public record UpdateTodoItemDetailCommand : IRequest
 
 public class UpdateTodoItemDetailCommandHandler : IRequestHandler<UpdateTodoItemDetailCommand>
 {
-    private readonly IAdmissionDbContext _context;
+    private readonly IAuthDbContext _context;
 
-    public UpdateTodoItemDetailCommandHandler(IAdmissionDbContext context)
+    public UpdateTodoItemDetailCommandHandler(IAuthDbContext context)
     {
         _context = context;
     }

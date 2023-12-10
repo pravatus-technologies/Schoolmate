@@ -33,8 +33,8 @@ public class CustomWebApplicationFactory : WebApplicationFactory<Program>
                 .AddTransient(provider => Mock.Of<IUser>(s => s.Id == GetUserId()));
 
             services
-                .RemoveAll<DbContextOptions<AdmissionDbContext>>()
-                .AddDbContext<AdmissionDbContext>((sp, options) =>
+                .RemoveAll<DbContextOptions<AuthDbContext>>()
+                .AddDbContext<AuthDbContext>((sp, options) =>
                 {
                     options.AddInterceptors(sp.GetServices<ISaveChangesInterceptor>());
                     options.UseSqlServer(_connection);

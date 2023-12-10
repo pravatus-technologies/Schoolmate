@@ -9,7 +9,7 @@ using Schoolmate.Infrastructure.Data.Contexts;
 
 namespace Schoolmate.Infrastructure.Data.Migrations.Admissions
 {
-    [DbContext(typeof(AdmissionDbContext))]
+    [DbContext(typeof(AuthDbContext))]
     [Migration("20231209083657_InitialCreate")]
     partial class InitialCreate
     {

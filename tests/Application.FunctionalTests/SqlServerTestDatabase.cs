@@ -32,11 +32,11 @@ public class SqlServerTestDatabase : ITestDatabase
     {
         _connection = new SqlConnection(_connectionString);
 
-        var options = new DbContextOptionsBuilder<AdmissionDbContext>()
+        var options = new DbContextOptionsBuilder<AuthDbContext>()
             .UseSqlServer(_connectionString)
             .Options;
 
-        var context = new AdmissionDbContext(options);
+        var context = new AuthDbContext(options);
 
         context.Database.Migrate();
 
