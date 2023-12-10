@@ -3,6 +3,7 @@ using Schoolmate.Infrastructure.Data;
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 using Respawn;
+using Schoolmate.Infrastructure.Data.Contexts;
 using Testcontainers.MsSql;
 
 namespace Schoolmate.Application.FunctionalTests;
@@ -29,11 +30,11 @@ public class TestcontainersTestDatabase : ITestDatabase
 
         _connection = new SqlConnection(_connectionString);
 
-        var options = new DbContextOptionsBuilder<ApplicationDbContext>()
+        var options = new DbContextOptionsBuilder<AdmissionDbContext>()
             .UseSqlServer(_connectionString)
             .Options;
 
-        var context = new ApplicationDbContext(options);
+        var context = new AdmissionDbContext(options);
 
         context.Database.Migrate();
 

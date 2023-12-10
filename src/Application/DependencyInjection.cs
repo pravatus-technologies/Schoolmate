@@ -1,7 +1,8 @@
 ﻿using System.Reflection;
+using Microsoft.Extensions.DependencyInjection;
 using Schoolmate.Application.Common.Behaviours;
 
-namespace Microsoft.Extensions.DependencyInjection;
+namespace Schoolmate.Application;
 
 public static class DependencyInjection
 {

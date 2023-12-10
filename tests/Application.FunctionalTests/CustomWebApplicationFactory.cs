@@ -9,6 +9,7 @@ using Microsoft.EntityFrameworkCore.Diagnostics;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.DependencyInjection.Extensions;
 using Schoolmate.Admissions;
+using Schoolmate.Infrastructure.Data.Contexts;
 
 namespace Schoolmate.Application.FunctionalTests;
 
@@ -32,8 +33,8 @@ public class CustomWebApplicationFactory : WebApplicationFactory<Program>
                 .AddTransient(provider => Mock.Of<IUser>(s => s.Id == GetUserId()));
 
             services
-                .RemoveAll<DbContextOptions<ApplicationDbContext>>()
-                .AddDbContext<ApplicationDbContext>((sp, options) =>
+                .RemoveAll<DbContextOptions<AdmissionDbContext>>()
+                .AddDbContext<AdmissionDbContext>((sp, options) =>
                 {
                     options.AddInterceptors(sp.GetServices<ISaveChangesInterceptor>());
                     options.UseSqlServer(_connection);

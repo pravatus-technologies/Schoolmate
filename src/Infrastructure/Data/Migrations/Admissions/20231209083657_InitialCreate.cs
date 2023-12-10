@@ -1,9 +1,8 @@
-﻿using System;
+﻿#nullable disable
+
 using Microsoft.EntityFrameworkCore.Migrations;
 
-#nullable disable
-
-namespace Schoolmate.Infrastructure.Data.Migrations
+namespace Schoolmate.Infrastructure.Data.Migrations.Admissions
 {
     /// <inheritdoc />
     public partial class InitialCreate : Migration

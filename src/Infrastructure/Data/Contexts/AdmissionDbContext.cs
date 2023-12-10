@@ -1,15 +1,15 @@
 ﻿using System.Reflection;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using Schoolmate.Application.Common.Interfaces;
 using Schoolmate.Domain.Entities;
 using Schoolmate.Infrastructure.Identity;
-using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore;
 
-namespace Schoolmate.Infrastructure.Data;
+namespace Schoolmate.Infrastructure.Data.Contexts;
 
-public class ApplicationDbContext : IdentityDbContext<ApplicationUser>, IApplicationDbContext
+public class AdmissionDbContext : IdentityDbContext<ApplicationUser>, IAdmissionDbContext
 {
-    public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options) { }
+    public AdmissionDbContext(DbContextOptions<AdmissionDbContext> options) : base(options) { }
 
     public DbSet<TodoList> TodoLists => Set<TodoList>();
 

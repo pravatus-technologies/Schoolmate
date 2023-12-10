@@ -5,6 +5,7 @@ using MediatR;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
+using Schoolmate.Infrastructure.Data.Contexts;
 
 namespace Schoolmate.Application.FunctionalTests;
 
@@ -111,7 +112,7 @@ public partial class Testing
     {
         using var scope = _scopeFactory.CreateScope();
 
-        var context = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
+        var context = scope.ServiceProvider.GetRequiredService<AdmissionDbContext>();
 
         return await context.FindAsync<TEntity>(keyValues);
     }
@@ -121,7 +122,7 @@ public partial class Testing
     {
         using var scope = _scopeFactory.CreateScope();
 
-        var context = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
+        var context = scope.ServiceProvider.GetRequiredService<AdmissionDbContext>();
 
         context.Add(entity);
 
@@ -132,7 +133,7 @@ public partial class Testing
     {
         using var scope = _scopeFactory.CreateScope();
 
-        var context = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
+        var context = scope.ServiceProvider.GetRequiredService<AdmissionDbContext>();
 
         return await context.Set<TEntity>().CountAsync();
     }

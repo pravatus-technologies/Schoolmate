@@ -4,9 +4,9 @@ namespace Schoolmate.Application.TodoLists.Commands.UpdateTodoList;
 
 public class UpdateTodoListCommandValidator : AbstractValidator<UpdateTodoListCommand>
 {
-    private readonly IApplicationDbContext _context;
+    private readonly IAdmissionDbContext _context;
 
-    public UpdateTodoListCommandValidator(IApplicationDbContext context)
+    public UpdateTodoListCommandValidator(IAdmissionDbContext context)
     {
         _context = context;
 

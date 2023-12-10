@@ -4,9 +4,9 @@ namespace Schoolmate.Application.TodoLists.Commands.CreateTodoList;
 
 public class CreateTodoListCommandValidator : AbstractValidator<CreateTodoListCommand>
 {
-    private readonly IApplicationDbContext _context;
+    private readonly IAdmissionDbContext _context;
 
-    public CreateTodoListCommandValidator(IApplicationDbContext context)
+    public CreateTodoListCommandValidator(IAdmissionDbContext context)
     {
         _context = context;
 

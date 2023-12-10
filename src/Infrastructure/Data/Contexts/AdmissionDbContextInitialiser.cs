@@ -1,14 +1,13 @@
-﻿using System.Runtime.InteropServices;
-using Schoolmate.Domain.Constants;
-using Schoolmate.Domain.Entities;
-using Schoolmate.Infrastructure.Identity;
-using Microsoft.AspNetCore.Builder;
+﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
+using Schoolmate.Domain.Constants;
+using Schoolmate.Domain.Entities;
+using Schoolmate.Infrastructure.Identity;
 
-namespace Schoolmate.Infrastructure.Data;
+namespace Schoolmate.Infrastructure.Data.Contexts;
 
 public static class InitialiserExtensions
 {
@@ -16,7 +15,7 @@ public static class InitialiserExtensions
     {
         using var scope = app.Services.CreateScope();
 
-        var initialiser = scope.ServiceProvider.GetRequiredService<ApplicationDbContextInitialiser>();
+        var initialiser = scope.ServiceProvider.GetRequiredService<AdmissionDbContextInitialiser>();
 
         await initialiser.InitialiseAsync();
 
@@ -24,14 +23,14 @@ public static class InitialiserExtensions
     }
 }
 
-public class ApplicationDbContextInitialiser
+public class AdmissionDbContextInitialiser
 {
-    private readonly ILogger<ApplicationDbContextInitialiser> _logger;
-    private readonly ApplicationDbContext _context;
+    private readonly ILogger<AdmissionDbContextInitialiser> _logger;
+    private readonly AdmissionDbContext _context;
     private readonly UserManager<ApplicationUser> _userManager;
     private readonly RoleManager<IdentityRole> _roleManager;
 
-    public ApplicationDbContextInitialiser(ILogger<ApplicationDbContextInitialiser> logger, ApplicationDbContext context, UserManager<ApplicationUser> userManager, RoleManager<IdentityRole> roleManager)
+    public AdmissionDbContextInitialiser(ILogger<AdmissionDbContextInitialiser> logger, AdmissionDbContext context, UserManager<ApplicationUser> userManager, RoleManager<IdentityRole> roleManager)
     {
         _logger = logger;
         _context = context;

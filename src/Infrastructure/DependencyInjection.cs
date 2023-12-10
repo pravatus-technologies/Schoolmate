@@ -1,18 +1,19 @@
-﻿using Schoolmate.Application.Common.Interfaces;
-using Schoolmate.Domain.Constants;
-using Schoolmate.Infrastructure.Data;
-using Schoolmate.Infrastructure.Data.Interceptors;
-using Schoolmate.Infrastructure.Identity;
-using Microsoft.AspNetCore.Identity;
+﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Diagnostics;
 using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
+using Schoolmate.Application.Common.Interfaces;
+using Schoolmate.Domain.Constants;
+using Schoolmate.Infrastructure.Data.Contexts;
+using Schoolmate.Infrastructure.Data.Interceptors;
+using Schoolmate.Infrastructure.Identity;
 
-namespace Microsoft.Extensions.DependencyInjection;
+namespace Schoolmate.Infrastructure;
 
 public static class DependencyInjection
 {
-    public static IServiceCollection AddInfrastructureServices(this IServiceCollection services, IConfiguration configuration)
+    public static IServiceCollection AddAdmissionInfrastructureServices(this IServiceCollection services, IConfiguration configuration)
     {
         var connectionString = Environment.GetEnvironmentVariable("SM_ADMIS") ?? string.Empty;
 
@@ -21,16 +22,16 @@ public static class DependencyInjection
         services.AddScoped<ISaveChangesInterceptor, AuditableEntityInterceptor>();
         services.AddScoped<ISaveChangesInterceptor, DispatchDomainEventsInterceptor>();
 
-        services.AddDbContext<ApplicationDbContext>((sp, options) =>
+        services.AddDbContext<AdmissionDbContext>((sp, options) =>
         {
             options.AddInterceptors(sp.GetServices<ISaveChangesInterceptor>());
 
             options.UseSqlServer(connectionString);
         });
 
-        services.AddScoped<IApplicationDbContext>(provider => provider.GetRequiredService<ApplicationDbContext>());
+        services.AddScoped<IAdmissionDbContext>(provider => provider.GetRequiredService<AdmissionDbContext>());
 
-        services.AddScoped<ApplicationDbContextInitialiser>();
+        services.AddScoped<AdmissionDbContextInitialiser>();
 
         services
             .AddDefaultIdentity<ApplicationUser>(options =>
@@ -51,7 +52,7 @@ public static class DependencyInjection
 #endif
             })
             .AddRoles<IdentityRole>()
-            .AddEntityFrameworkStores<ApplicationDbContext>();
+            .AddEntityFrameworkStores<AdmissionDbContext>();
 
         services.AddSingleton(TimeProvider.System);
         services.AddTransient<IIdentityService, IdentityService>();

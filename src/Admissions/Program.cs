@@ -1,6 +1,9 @@
 using Schoolmate.Admissions;
 using Schoolmate.Admissions.Infrastructure;
+using Schoolmate.Application;
+using Schoolmate.Infrastructure;
 using Schoolmate.Infrastructure.Data;
+using Schoolmate.Infrastructure.Data.Contexts;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -8,7 +11,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddKeyVaultIfConfigured(builder.Configuration);
 
 builder.Services.AddApplicationServices();
-builder.Services.AddInfrastructureServices(builder.Configuration);
+builder.Services.AddAdmissionInfrastructureServices(builder.Configuration);
 builder.Services.AddWebServices();
 
 var app = builder.Build();

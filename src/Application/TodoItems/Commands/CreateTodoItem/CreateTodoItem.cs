@@ -13,9 +13,9 @@ public record CreateTodoItemCommand : IRequest<int>
 
 public class CreateTodoItemCommandHandler : IRequestHandler<CreateTodoItemCommand, int>
 {
-    private readonly IApplicationDbContext _context;
+    private readonly IAdmissionDbContext _context;
 
-    public CreateTodoItemCommandHandler(IApplicationDbContext context)
+    public CreateTodoItemCommandHandler(IAdmissionDbContext context)
     {
         _context = context;
     }

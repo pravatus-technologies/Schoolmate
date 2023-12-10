@@ -3,20 +3,18 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
-using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Schoolmate.Infrastructure.Data;
+using Schoolmate.Infrastructure.Data.Contexts;
 
 #nullable disable
 
 namespace Schoolmate.Infrastructure.Data.Migrations
 {
-    [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20231209083657_InitialCreate")]
-    partial class InitialCreate
+    [DbContext(typeof(AdmissionDbContext))]
+    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
     {
-        /// <inheritdoc />
-        protected override void BuildTargetModel(ModelBuilder modelBuilder)
+        protected override void BuildModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

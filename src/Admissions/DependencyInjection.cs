@@ -4,6 +4,7 @@ using Schoolmate.Admissions.Infrastructure;
 using Schoolmate.Admissions.Services;
 using Schoolmate.Application.Common.Interfaces;
 using Schoolmate.Infrastructure.Data;
+using Schoolmate.Infrastructure.Data.Contexts;
 using ZymLabs.NSwag.FluentValidation;
 
 namespace Schoolmate.Admissions;
@@ -19,7 +20,7 @@ public static class DependencyInjection
         services.AddHttpContextAccessor();
 
         services.AddHealthChecks()
-            .AddDbContextCheck<ApplicationDbContext>();
+            .AddDbContextCheck<AdmissionDbContext>();
 
         services.AddExceptionHandler<CustomExceptionHandler>();
 
