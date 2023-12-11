@@ -13,6 +13,7 @@ public class ApplicantConfiguration : IEntityTypeConfiguration<Applicant>
         ConfigureAddressTable(builder);
         ConfigureParentInfoTable(builder);
         ConfigureAcademicHistoryTable(builder);
+        ConfigureApplicationStatusTable(builder);
     }
 
     private void BuildApplicantTable(EntityTypeBuilder<Applicant> builder)
@@ -187,6 +188,25 @@ public class ApplicantConfiguration : IEntityTypeConfiguration<Applicant>
                 b.Property(p => p.IsCompleted)
                     .HasColumnName("IsCompleted")
                     .HasColumnType("bit");
+            });
+        }
+
+        private void ConfigureApplicationStatusTable(EntityTypeBuilder<Applicant> builder)
+        {
+            builder.OwnsMany(p => p.ApplicationStatuses, b =>
+            {
+                b.ToTable("ApplicationStatus");
+                b.HasKey(p => p.Id);
+
+                b.WithOwner()
+                    .HasForeignKey(p => p.ApplicantId)
+                    .HasPrincipalKey(p => p.Id);
+
+                b.Property(p => p.ApplicationStatusType)
+                    .HasColumnName("ApplicationStatusType")
+                    .HasColumnType("nvarchar(20)")
+                    .HasConversion(item => item.Name,
+                        value => ApplicationStatusType.FromName(value, true));
             });
         }
 }

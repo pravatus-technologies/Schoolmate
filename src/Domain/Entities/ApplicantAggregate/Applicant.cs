@@ -45,6 +45,7 @@ public class Applicant : BaseAuditableEntity
     private readonly List<Address> _addresses = new List<Address>();
     private readonly List<ParentInformation> _parentInfos = new List<ParentInformation>();
     private readonly List<AcademicHistory> _academicHistory = new List<AcademicHistory>();
+    private readonly List<ApplicationStatus> _applicationStatuses = new List<ApplicationStatus>();
 
     // Using List<>.AsReadOnly() 
     // This will create a read only wrapper around the private list so is protected against "external updates".
@@ -53,6 +54,7 @@ public class Applicant : BaseAuditableEntity
     public IReadOnlyCollection<Address> AddressList => _addresses.AsReadOnly();
     public IReadOnlyCollection<ParentInformation> ParentList => _parentInfos.AsReadOnly();
     public IReadOnlyCollection<AcademicHistory> AcademicHistory => _academicHistory.AsReadOnly();
+    public IReadOnlyCollection<ApplicationStatus> ApplicationStatuses => _applicationStatuses.AsReadOnly();
 
     #pragma warning disable CS8618 // Required by Entity Framework
     private Applicant() { }
