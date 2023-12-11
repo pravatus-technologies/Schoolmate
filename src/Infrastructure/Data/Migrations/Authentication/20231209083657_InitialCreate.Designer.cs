@@ -7,7 +7,7 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Schoolmate.Infrastructure.Data.Contexts;
 
-namespace Schoolmate.Infrastructure.Data.Migrations.Admissions
+namespace Schoolmate.Infrastructure.Data.Migrations.Authentication
 {
     [DbContext(typeof(AuthDbContext))]
     [Migration("20231209083657_InitialCreate")]

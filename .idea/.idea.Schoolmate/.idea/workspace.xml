@@ -10,33 +10,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79eaefb9-58db-4d7d-8298-805500686746" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Application/Common/Interfaces/IAdmissionDbContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Domain/Entities/ApplicantAggregate/AcademicHistory.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Domain/Entities/ApplicantAggregate/Address.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Domain/Entities/ApplicantAggregate/Applicant.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Domain/Entities/ApplicantAggregate/ApplicationStatus.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Domain/Entities/ApplicantAggregate/HealthInformation.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Domain/Entities/ApplicantAggregate/ParentInformation.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Domain/Entities/ApplicantAggregate/Sibling.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Domain/ValueObjects/BloodType.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Domain/ValueObjects/CivilStatus.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Domain/ValueObjects/Gender.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Domain/ValueObjects/ParentType.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Infrastructure/Data/Configurations/Admissions/ApplicantConfiguration.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Infrastructure/Data/Contexts/AdmissionDbContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Infrastructure/Data/Contexts/AdmissionDbContextFactory.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Schoolmate/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Schoolmate/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Admissions/DependencyInjection.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/DependencyInjection.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Admissions/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Application/Common/Interfaces/IAdmissionDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Application/Common/Interfaces/IAuthDbContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Application/TodoItems/Commands/CreateTodoItem/CreateTodoItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Application/TodoItems/Commands/CreateTodoItem/CreateTodoItem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Application/TodoItems/Commands/DeleteTodoItem/DeleteTodoItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Application/TodoItems/Commands/DeleteTodoItem/DeleteTodoItem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Application/TodoItems/Commands/UpdateTodoItem/UpdateTodoItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Application/TodoItems/Commands/UpdateTodoItem/UpdateTodoItem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Application/TodoItems/Commands/UpdateTodoItemDetail/UpdateTodoItemDetail.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Application/TodoItems/Commands/UpdateTodoItemDetail/UpdateTodoItemDetail.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Application/TodoItems/Queries/GetTodoItemsWithPagination/GetTodoItemsWithPagination.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Application/TodoItems/Queries/GetTodoItemsWithPagination/GetTodoItemsWithPagination.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Application/TodoLists/Commands/CreateTodoList/CreateTodoList.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Application/TodoLists/Commands/CreateTodoList/CreateTodoList.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Application/TodoLists/Commands/CreateTodoList/CreateTodoListCommandValidator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Application/TodoLists/Commands/CreateTodoList/CreateTodoListCommandValidator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Application/TodoLists/Commands/DeleteTodoList/DeleteTodoList.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Application/TodoLists/Commands/DeleteTodoList/DeleteTodoList.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Application/TodoLists/Commands/PurgeTodoLists/PurgeTodoLists.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Application/TodoLists/Commands/PurgeTodoLists/PurgeTodoLists.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Application/TodoLists/Commands/UpdateTodoList/UpdateTodoList.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Application/TodoLists/Commands/UpdateTodoList/UpdateTodoList.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Application/TodoLists/Commands/UpdateTodoList/UpdateTodoListCommandValidator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Application/TodoLists/Commands/UpdateTodoList/UpdateTodoListCommandValidator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Application/TodoLists/Queries/GetTodos/GetTodos.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Application/TodoLists/Queries/GetTodos/GetTodos.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Infrastructure/Data/Contexts/AdmissionDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Infrastructure/Data/Contexts/AuthDbContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Infrastructure/Data/Contexts/AdmissionDbContextFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Infrastructure/Data/Contexts/AuthDbContextFactory.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Infrastructure/Data/Contexts/AdmissionDbContextInitialiser.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Infrastructure/Data/Contexts/AuthDbContextInitializer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Infrastructure/Data/Migrations/Admissions/20231209083657_InitialCreate.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Infrastructure/Data/Migrations/Admissions/20231209083657_InitialCreate.Designer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Infrastructure/Data/Migrations/Admissions/ApplicationDbContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Infrastructure/Data/Migrations/Admissions/ApplicationDbContextModelSnapshot.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Infrastructure/DependencyInjection.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Infrastructure/DependencyInjection.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Application.FunctionalTests/CustomWebApplicationFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Application.FunctionalTests/CustomWebApplicationFactory.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Application.FunctionalTests/SqlServerTestDatabase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Application.FunctionalTests/SqlServerTestDatabase.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Application.FunctionalTests/TestcontainersTestDatabase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Application.FunctionalTests/TestcontainersTestDatabase.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Application.FunctionalTests/Testing.cs" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Application.FunctionalTests/Testing.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Application.UnitTests/Common/Mappings/MappingTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Application.UnitTests/Common/Mappings/MappingTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Directory.Packages.props" beforeDir="false" afterPath="$PROJECT_DIR$/Directory.Packages.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Admissions/ClientApp/src/app/nav-menu/nav-menu.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/ClientApp/src/app/nav-menu/nav-menu.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Admissions/Pages/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Admissions/Pages/Shared/_Layout.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Domain/Domain.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/Domain/Domain.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Infrastructure/Data/Contexts/AuthDbContextFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Infrastructure/Data/Contexts/AuthDbContextFactory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Infrastructure/Data/Migrations/Admissions/20231209083657_InitialCreate.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Infrastructure/Data/Migrations/Authentication/20231209083657_InitialCreate.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Infrastructure/Data/Migrations/Admissions/20231209083657_InitialCreate.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Infrastructure/Data/Migrations/Authentication/20231209083657_InitialCreate.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Infrastructure/Data/Migrations/Admissions/ApplicationDbContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Infrastructure/Data/Migrations/Authentication/ApplicationDbContextModelSnapshot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Infrastructure/Infrastructure.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/Infrastructure/Infrastructure.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,11 +50,8 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///Users/ephraim/repos/SMCSD/Schoolmate/src/Admissions/Areas/Identity/Pages/Account/Manage/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/ephraim/repos/SMCSD/Schoolmate/src/Admissions/Areas/Identity/Pages/Account/Manage/Index.cshtml.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/ephraim/repos/SMCSD/Schoolmate/src/Admissions/Areas/Identity/Pages/Account/Register.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/ephraim/repos/SMCSD/Schoolmate/src/Admissions/Areas/Identity/Pages/Account/Register.cshtml.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/ephraim/repos/SMCSD/Schoolmate/src/Admissions/Areas/Identity/Pages/Account/Register.cshtml.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8bc9cdb23bc146bcaaae0bb9e45e5d46d9dc00/40/767167cc/String.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/ephraim/repos/SMCSD/Schoolmate/src/Infrastructure/Data/Migrations/Admissions/20231209083657_InitialCreate.Designer.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -155,6 +150,8 @@
       <workItem from="1701789714074" duration="2413000" />
       <workItem from="1701829913708" duration="5805000" />
       <workItem from="1702111416653" duration="8470000" />
+      <workItem from="1702182450594" duration="14826000" />
+      <workItem from="1702286741448" duration="1248000" />
     </task>
     <task id="LOCAL-00001" summary="Created Solution Folders separating apps and libs. Rename Web project to Admissions.">
       <option name="closed" value="true" />
@@ -196,7 +193,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702176607195</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="rename admissiondbcontext to authdbcontext and moved authentication to a separate DI method">
+      <option name="closed" value="true" />
+      <created>1702182666621</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1702182666621</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -221,6 +226,7 @@
     <MESSAGE value="fixed code where new registration does not persist fields in the db" />
     <MESSAGE value="added phone number to registration requirement" />
     <MESSAGE value="move folders and renamed files to separate admission application lib requirements" />
-    <option name="LAST_COMMIT_MESSAGE" value="move folders and renamed files to separate admission application lib requirements" />
+    <MESSAGE value="rename admissiondbcontext to authdbcontext and moved authentication to a separate DI method" />
+    <option name="LAST_COMMIT_MESSAGE" value="rename admissiondbcontext to authdbcontext and moved authentication to a separate DI method" />
   </component>
 </project>

@@ -10,7 +10,7 @@ public class AuthDbContextFactory : IDesignTimeDbContextFactory<AuthDbContext>
     {
         var optionsBuilder = new DbContextOptionsBuilder<AuthDbContext>();
         optionsBuilder
-            .UseSqlServer(Environment.GetEnvironmentVariable("SM_ADMIS"),
+            .UseSqlServer(Environment.GetEnvironmentVariable("SM_AUTH"),
                 builderOptions =>
                     builderOptions.MigrationsAssembly(typeof(AuthDbContext).GetTypeInfo().Assembly.GetName().Name));
 

@@ -2,7 +2,7 @@
 
 using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace Schoolmate.Infrastructure.Data.Migrations.Admissions
+namespace Schoolmate.Infrastructure.Data.Migrations.Authentication
 {
     /// <inheritdoc />
     public partial class InitialCreate : Migration
